@@ -74,6 +74,8 @@ WHERE customer_id BETWEEN 380 and 430
 GROUP BY amount
 HAVING COUNT(amount) > 250
 
+-- 3 payment amounts
+
 -- 10. Within the film table, how many rating categories are there? And what rating has the most
 -- movies total?
 
